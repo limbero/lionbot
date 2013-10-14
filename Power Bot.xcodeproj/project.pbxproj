@@ -493,6 +493,7 @@
 				5B4D1524180B14B60060361C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4D1525180B14B60060361C /* Build configuration list for PBXNativeTarget "Power BotTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +502,7 @@
 				5B4D1527180B14B60060361C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
