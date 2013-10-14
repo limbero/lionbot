@@ -18,6 +18,13 @@
 		5B4D1515180B14B60060361C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4D14F4180B14B50060361C /* Cocoa.framework */; };
 		5B4D151D180B14B60060361C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D151B180B14B60060361C /* InfoPlist.strings */; };
 		5B4D151F180B14B60060361C /* Power_BotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D151E180B14B60060361C /* Power_BotTests.m */; };
+		5B4D1532180B63A80060361C /* powerbot_charged_reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D152C180B63A80060361C /* powerbot_charged_reverse.png */; };
+		5B4D1533180B63A80060361C /* powerbot_charged.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D152D180B63A80060361C /* powerbot_charged.png */; };
+		5B4D1534180B63A80060361C /* powerbot_charging_reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D152E180B63A80060361C /* powerbot_charging_reverse.png */; };
+		5B4D1535180B63A80060361C /* powerbot_charging.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D152F180B63A80060361C /* powerbot_charging.png */; };
+		5B4D1536180B63A80060361C /* powerbot_discharged_reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D1530180B63A80060361C /* powerbot_discharged_reverse.png */; };
+		5B4D1537180B63A80060361C /* powerbot_discharged.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D1531180B63A80060361C /* powerbot_discharged.png */; };
+		5B4D1539180B6CC10060361C /* powerbot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D1538180B6CC10060361C /* powerbot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		5B4D151A180B14B60060361C /* Power BotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power BotTests-Info.plist"; sourceTree = "<group>"; };
 		5B4D151C180B14B60060361C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4D151E180B14B60060361C /* Power_BotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_BotTests.m; sourceTree = "<group>"; };
+		5B4D152C180B63A80060361C /* powerbot_charged_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_charged_reverse.png; sourceTree = "<group>"; };
+		5B4D152D180B63A80060361C /* powerbot_charged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_charged.png; sourceTree = "<group>"; };
+		5B4D152E180B63A80060361C /* powerbot_charging_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_charging_reverse.png; sourceTree = "<group>"; };
+		5B4D152F180B63A80060361C /* powerbot_charging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_charging.png; sourceTree = "<group>"; };
+		5B4D1530180B63A80060361C /* powerbot_discharged_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_discharged_reverse.png; sourceTree = "<group>"; };
+		5B4D1531180B63A80060361C /* powerbot_discharged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_discharged.png; sourceTree = "<group>"; };
+		5B4D1538180B6CC10060361C /* powerbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,13 @@
 				5B4D1506180B14B50060361C /* LIMAppDelegate.h */,
 				5B4D1507180B14B50060361C /* LIMAppDelegate.m */,
 				5B4D1509180B14B50060361C /* MainMenu.xib */,
+				5B4D152C180B63A80060361C /* powerbot_charged_reverse.png */,
+				5B4D152D180B63A80060361C /* powerbot_charged.png */,
+				5B4D152E180B63A80060361C /* powerbot_charging_reverse.png */,
+				5B4D152F180B63A80060361C /* powerbot_charging.png */,
+				5B4D1530180B63A80060361C /* powerbot_discharged_reverse.png */,
+				5B4D1538180B6CC10060361C /* powerbot.png */,
+				5B4D1531180B63A80060361C /* powerbot_discharged.png */,
 				5B4D150C180B14B50060361C /* Images.xcassets */,
 				5B4D14FB180B14B50060361C /* Supporting Files */,
 			);
@@ -233,8 +254,15 @@
 			files = (
 				5B4D14FF180B14B50060361C /* InfoPlist.strings in Resources */,
 				5B4D150D180B14B50060361C /* Images.xcassets in Resources */,
+				5B4D1533180B63A80060361C /* powerbot_charged.png in Resources */,
+				5B4D1536180B63A80060361C /* powerbot_discharged_reverse.png in Resources */,
+				5B4D1534180B63A80060361C /* powerbot_charging_reverse.png in Resources */,
+				5B4D1539180B6CC10060361C /* powerbot.png in Resources */,
+				5B4D1535180B63A80060361C /* powerbot_charging.png in Resources */,
+				5B4D1532180B63A80060361C /* powerbot_charged_reverse.png in Resources */,
 				5B4D1505180B14B50060361C /* Credits.rtf in Resources */,
 				5B4D150B180B14B50060361C /* MainMenu.xib in Resources */,
+				5B4D1537180B63A80060361C /* powerbot_discharged.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
