@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B199FBF180CA1A10052F3F0 /* lionbot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B199FBE180CA1A10052F3F0 /* lionbot.png */; };
 		5B4D14F5180B14B50060361C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4D14F4180B14B50060361C /* Cocoa.framework */; };
 		5B4D14FF180B14B50060361C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4D14FD180B14B50060361C /* InfoPlist.strings */; };
 		5B4D1501180B14B50060361C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D1500180B14B50060361C /* main.m */; };
@@ -38,23 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B4D14F1180B14B50060361C /* Power Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B199FBE180CA1A10052F3F0 /* lionbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lionbot.png; sourceTree = "<group>"; };
+		5B4D14F1180B14B50060361C /* Lion Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4D14F4180B14B50060361C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5B4D14F7180B14B50060361C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5B4D14F8180B14B50060361C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5B4D14F9180B14B50060361C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5B4D14FC180B14B50060361C /* Power Bot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Bot-Info.plist"; sourceTree = "<group>"; };
+		5B4D14FC180B14B50060361C /* Lion Bot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lion Bot-Info.plist"; sourceTree = "<group>"; };
 		5B4D14FE180B14B50060361C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4D1500180B14B50060361C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B4D1502180B14B50060361C /* Power Bot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power Bot-Prefix.pch"; sourceTree = "<group>"; };
+		5B4D1502180B14B50060361C /* Lion Bot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lion Bot-Prefix.pch"; sourceTree = "<group>"; };
 		5B4D1504180B14B50060361C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5B4D1506180B14B50060361C /* LIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMAppDelegate.h; sourceTree = "<group>"; };
 		5B4D1507180B14B50060361C /* LIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIMAppDelegate.m; sourceTree = "<group>"; };
 		5B4D150A180B14B50060361C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5B4D150C180B14B50060361C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B4D1512180B14B60060361C /* Power BotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power BotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4D1512180B14B60060361C /* Lion BotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion BotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4D1513180B14B60060361C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5B4D151A180B14B60060361C /* Power BotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power BotTests-Info.plist"; sourceTree = "<group>"; };
+		5B4D151A180B14B60060361C /* Lion BotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lion BotTests-Info.plist"; sourceTree = "<group>"; };
 		5B4D151C180B14B60060361C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4D151E180B14B60060361C /* Power_BotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_BotTests.m; sourceTree = "<group>"; };
 		5B4D152C180B63A80060361C /* powerbot_charged_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbot_charged_reverse.png; sourceTree = "<group>"; };
@@ -100,8 +102,8 @@
 		5B4D14F2180B14B50060361C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B4D14F1180B14B50060361C /* Power Bot.app */,
-				5B4D1512180B14B60060361C /* Power BotTests.xctest */,
+				5B4D14F1180B14B50060361C /* Lion Bot.app */,
+				5B4D1512180B14B60060361C /* Lion BotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 				5B4D152F180B63A80060361C /* powerbot_charging.png */,
 				5B4D1530180B63A80060361C /* powerbot_discharged_reverse.png */,
 				5B4D1538180B6CC10060361C /* powerbot.png */,
+				5B199FBE180CA1A10052F3F0 /* lionbot.png */,
 				5B4D1531180B63A80060361C /* powerbot_discharged.png */,
 				5B4D150C180B14B50060361C /* Images.xcassets */,
 				5B4D14FB180B14B50060361C /* Supporting Files */,
@@ -148,10 +151,10 @@
 		5B4D14FB180B14B50060361C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B4D14FC180B14B50060361C /* Power Bot-Info.plist */,
+				5B4D14FC180B14B50060361C /* Lion Bot-Info.plist */,
 				5B4D14FD180B14B50060361C /* InfoPlist.strings */,
 				5B4D1500180B14B50060361C /* main.m */,
-				5B4D1502180B14B50060361C /* Power Bot-Prefix.pch */,
+				5B4D1502180B14B50060361C /* Lion Bot-Prefix.pch */,
 				5B4D1503180B14B50060361C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -169,7 +172,7 @@
 		5B4D1519180B14B60060361C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B4D151A180B14B60060361C /* Power BotTests-Info.plist */,
+				5B4D151A180B14B60060361C /* Lion BotTests-Info.plist */,
 				5B4D151B180B14B60060361C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -178,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B4D14F0180B14B50060361C /* Power Bot */ = {
+		5B4D14F0180B14B50060361C /* Lion Bot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B4D1522180B14B60060361C /* Build configuration list for PBXNativeTarget "Power Bot" */;
+			buildConfigurationList = 5B4D1522180B14B60060361C /* Build configuration list for PBXNativeTarget "Lion Bot" */;
 			buildPhases = (
 				5B4D14ED180B14B50060361C /* Sources */,
 				5B4D14EE180B14B50060361C /* Frameworks */,
@@ -190,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = "Power Bot";
+			name = "Lion Bot";
 			productName = "Power Bot";
-			productReference = 5B4D14F1180B14B50060361C /* Power Bot.app */;
+			productReference = 5B4D14F1180B14B50060361C /* Lion Bot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B4D1511180B14B60060361C /* Power BotTests */ = {
+		5B4D1511180B14B60060361C /* Lion BotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B4D1525180B14B60060361C /* Build configuration list for PBXNativeTarget "Power BotTests" */;
+			buildConfigurationList = 5B4D1525180B14B60060361C /* Build configuration list for PBXNativeTarget "Lion BotTests" */;
 			buildPhases = (
 				5B4D150E180B14B60060361C /* Sources */,
 				5B4D150F180B14B60060361C /* Frameworks */,
@@ -208,9 +211,9 @@
 			dependencies = (
 				5B4D1517180B14B60060361C /* PBXTargetDependency */,
 			);
-			name = "Power BotTests";
+			name = "Lion BotTests";
 			productName = "Power BotTests";
-			productReference = 5B4D1512180B14B60060361C /* Power BotTests.xctest */;
+			productReference = 5B4D1512180B14B60060361C /* Lion BotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B4D14EC180B14B50060361C /* Build configuration list for PBXProject "Power Bot" */;
+			buildConfigurationList = 5B4D14EC180B14B50060361C /* Build configuration list for PBXProject "Lion Bot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B4D14F0180B14B50060361C /* Power Bot */,
-				5B4D1511180B14B60060361C /* Power BotTests */,
+				5B4D14F0180B14B50060361C /* Lion Bot */,
+				5B4D1511180B14B60060361C /* Lion BotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +260,7 @@
 				5B4D1533180B63A80060361C /* powerbot_charged.png in Resources */,
 				5B4D1536180B63A80060361C /* powerbot_discharged_reverse.png in Resources */,
 				5B4D1534180B63A80060361C /* powerbot_charging_reverse.png in Resources */,
+				5B199FBF180CA1A10052F3F0 /* lionbot.png in Resources */,
 				5B4D1539180B6CC10060361C /* powerbot.png in Resources */,
 				5B4D1535180B63A80060361C /* powerbot_charging.png in Resources */,
 				5B4D1532180B63A80060361C /* powerbot_charged_reverse.png in Resources */,
@@ -299,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		5B4D1517180B14B60060361C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B4D14F0180B14B50060361C /* Power Bot */;
+			target = 5B4D14F0180B14B50060361C /* Lion Bot */;
 			targetProxy = 5B4D1516180B14B60060361C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,9 +418,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Power Bot/Power Bot-Prefix.pch";
-				INFOPLIST_FILE = "Power Bot/Power Bot-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Power Bot/Lion Bot-Prefix.pch";
+				INFOPLIST_FILE = "Power Bot/Lion Bot-Info.plist";
+				PRODUCT_NAME = "Lion Bot";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,9 +431,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Power Bot/Power Bot-Prefix.pch";
-				INFOPLIST_FILE = "Power Bot/Power Bot-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Power Bot/Lion Bot-Prefix.pch";
+				INFOPLIST_FILE = "Power Bot/Lion Bot-Info.plist";
+				PRODUCT_NAME = "Lion Bot";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -449,8 +453,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Power BotTests/Power BotTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Power BotTests/Lion BotTests-Info.plist";
+				PRODUCT_NAME = "Lion BotTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -467,8 +471,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Power Bot/Power Bot-Prefix.pch";
-				INFOPLIST_FILE = "Power BotTests/Power BotTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Power BotTests/Lion BotTests-Info.plist";
+				PRODUCT_NAME = "Lion BotTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -477,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B4D14EC180B14B50060361C /* Build configuration list for PBXProject "Power Bot" */ = {
+		5B4D14EC180B14B50060361C /* Build configuration list for PBXProject "Lion Bot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4D1520180B14B60060361C /* Debug */,
@@ -486,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B4D1522180B14B60060361C /* Build configuration list for PBXNativeTarget "Power Bot" */ = {
+		5B4D1522180B14B60060361C /* Build configuration list for PBXNativeTarget "Lion Bot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4D1523180B14B60060361C /* Debug */,
@@ -495,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B4D1525180B14B60060361C /* Build configuration list for PBXNativeTarget "Power BotTests" */ = {
+		5B4D1525180B14B60060361C /* Build configuration list for PBXNativeTarget "Lion BotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B4D1526180B14B60060361C /* Debug */,

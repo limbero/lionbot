@@ -14,11 +14,11 @@
         <customObject id="-3" userLabel="Application"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
-                <menuItem title="Power Bot" id="56">
-                    <menu key="submenu" title="Power Bot" systemMenu="apple" id="57">
+                <menuItem title="Lion Bot" id="56">
+                    <menu key="submenu" title="Lion Bot" systemMenu="apple" id="57">
                         <items>
                             <menuItem title="Preferences…" keyEquivalent="," id="129"/>
-                            <menuItem title="About Power Bot" id="58">
+                            <menuItem title="About Lion Bot" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -27,7 +27,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit Power Bot" keyEquivalent="q" id="136">
+                            <menuItem title="Quit Lion Bot" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>

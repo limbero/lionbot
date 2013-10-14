@@ -1,6 +1,6 @@
 //
 //  LIMAppDelegate.m
-//  Power Bot
+//  Lion Bot
 //
 //  Created by limbero on 13/10/13.
 //  Copyright (c) 2013 Limbero. All rights reserved.
@@ -35,13 +35,13 @@ NSString *tooltip;
     theMenu = [[NSMenu alloc] initWithTitle:@""];
     [theMenu setAutoenablesItems:NO];
     NSMenuItem *aboutItem = nil;
-    aboutItem = [theMenu addItemWithTitle:@"About Power Bot" action:@selector(aboutHandler:) keyEquivalent:@""];
+    aboutItem = [theMenu addItemWithTitle:@"About Lion Bot" action:@selector(aboutHandler:) keyEquivalent:@""];
     [theMenu addItem:[NSMenuItem separatorItem]];
     NSMenuItem *quitItem = nil;
-    quitItem = [theMenu addItemWithTitle:@"Quit Power Bot" action:@selector(terminate:) keyEquivalent:@"q"];
+    quitItem = [theMenu addItemWithTitle:@"Quit Lion Bot" action:@selector(terminate:) keyEquivalent:@"q"];
     [quitItem setKeyEquivalentModifierMask:NSCommandKeyMask];
     
-    tooltip = @"Power Bot 0.1";
+    tooltip = @"Lion Bot 0.1";
     [statusItem setAttributedTitle:percentageString];
     [statusItem setImage:[NSImage imageNamed:@"powerbot_charged.png"]];
     [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_charged_reverse.png"]];
@@ -96,12 +96,12 @@ NSString *tooltip;
             [statusItem setImage:[NSImage imageNamed:@"powerbot_charged.png"]];
             [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_charged_reverse.png"]];
             NSLog(@"stop charging");
-            tooltip = @"Stop charging\nPower Bot 0.1";
+            tooltip = @"Stop charging\nLion Bot 0.1";
         } else {
             [statusItem setImage:[NSImage imageNamed:@"powerbot_charging.png"]];
             [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_charging_reverse.png"]];
             NSLog(@"keep charging");
-            tooltip = @"Keep charging\nPower Bot 0.1";
+            tooltip = @"Keep charging\nLion Bot 0.1";
         }
     } else {
         if([[rawBatteryString substringToIndex:[rawBatteryString length]-1] intValue] <= 20)
@@ -109,12 +109,12 @@ NSString *tooltip;
             [statusItem setImage:[NSImage imageNamed:@"powerbot_discharged.png"]];
             [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_discharged_reverse.png"]];
             NSLog(@"start charging");
-            tooltip = @"Start charging\nPower Bot 0.1";
+            tooltip = @"Start charging\nLion Bot 0.1";
         } else {
             [statusItem setImage:[NSImage imageNamed:@"powerbot_charged.png"]];
             [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_charged_reverse.png"]];
             NSLog(@"keep discharging");
-            tooltip = @"Keep discharging\nPower Bot 0.1";
+            tooltip = @"Keep discharging\nLion Bot 0.1";
         }
     }
     

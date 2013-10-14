@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Power Bot.xcodeproj">
+      location = "self:Lion Bot.xcodeproj">
    </FileRef>
 </Workspace>

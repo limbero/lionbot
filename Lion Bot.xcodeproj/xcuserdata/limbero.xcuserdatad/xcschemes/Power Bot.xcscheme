@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B4D14F0180B14B50060361C"
                BuildableName = "Power Bot.app"
-               BlueprintName = "Power Bot"
-               ReferencedContainer = "container:Power Bot.xcodeproj">
+               BlueprintName = "Lion Bot"
+               ReferencedContainer = "container:Lion Bot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B4D1511180B14B60060361C"
                BuildableName = "Power BotTests.xctest"
-               BlueprintName = "Power BotTests"
-               ReferencedContainer = "container:Power Bot.xcodeproj">
+               BlueprintName = "Lion BotTests"
+               ReferencedContainer = "container:Lion Bot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B4D14F0180B14B50060361C"
             BuildableName = "Power Bot.app"
-            BlueprintName = "Power Bot"
-            ReferencedContainer = "container:Power Bot.xcodeproj">
+            BlueprintName = "Lion Bot"
+            ReferencedContainer = "container:Lion Bot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B4D14F0180B14B50060361C"
             BuildableName = "Power Bot.app"
-            BlueprintName = "Power Bot"
-            ReferencedContainer = "container:Power Bot.xcodeproj">
+            BlueprintName = "Lion Bot"
+            ReferencedContainer = "container:Lion Bot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B4D14F0180B14B50060361C"
             BuildableName = "Power Bot.app"
-            BlueprintName = "Power Bot"
-            ReferencedContainer = "container:Power Bot.xcodeproj">
+            BlueprintName = "Lion Bot"
+            ReferencedContainer = "container:Lion Bot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
