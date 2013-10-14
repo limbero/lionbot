@@ -34,24 +34,14 @@ NSString *tooltip;
     
     theMenu = [[NSMenu alloc] initWithTitle:@""];
     [theMenu setAutoenablesItems:NO];
-    /*NSMenuItem *preferencesItem = nil;
-    preferencesItem = [theMenu addItemWithTitle:@"Preferences..." action:nil keyEquivalent:@""];
-    [theMenu addItem:[NSMenuItem separatorItem]];*/
+    NSMenuItem *aboutItem = nil;
+    aboutItem = [theMenu addItemWithTitle:@"About Power Bot" action:@selector(aboutHandler:) keyEquivalent:@""];
+    [theMenu addItem:[NSMenuItem separatorItem]];
     NSMenuItem *quitItem = nil;
     quitItem = [theMenu addItemWithTitle:@"Quit Power Bot" action:@selector(terminate:) keyEquivalent:@"q"];
     [quitItem setKeyEquivalentModifierMask:NSCommandKeyMask];
     
-    /*NSString *tooltip;
-    if(IOPSCopyExternalPowerAdapterDetails() != NULL)
-    {
-        tooltip = @"Power Bot 0.1\nAC Power";
-    }
-    else
-    {
-        tooltip = @"Power Bot 0.1\nBattery";
-    }*/
     tooltip = @"Power Bot 0.1";
-    
     [statusItem setAttributedTitle:percentageString];
     [statusItem setImage:[NSImage imageNamed:@"powerbot_charged.png"]];
     [statusItem setAlternateImage:[NSImage imageNamed:@"powerbot_charged_reverse.png"]];
@@ -63,6 +53,12 @@ NSString *tooltip;
     
     updateTimer = [NSTimer timerWithTimeInterval:2 target:self selector:@selector(updater) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop] addTimer:updateTimer forMode:NSRunLoopCommonModes];
+}
+
+-(void)aboutHandler:(id) sender
+{
+    NSLog(@"Clicked About");
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://limbero.com/projects/powerbot"]];
 }
 
 - (void)updater
